@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "scripts": [
+            "\/assets\/js\/bundle.js"
+        ],
+        "styles": [
+            "\/assets\/css\/bundle.min.css"
+        ]
+    },
+    "live": {
+        "scripts": [
+            "\/assets\/js\/bundle.oxth4y.min.js"
+        ],
+        "styles": [
+            "\/assets\/css\/bundle.oxtgou.min.css"
+        ]
+    }
+}

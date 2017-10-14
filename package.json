@@ -2,16 +2,13 @@
   "name": "donprinton",
   "scripts": {
     "build": "yarn build:umd:min && yarn sass",
-    "build:win": "yarn build:umd:min:win && yarn build:umd && yarn sass && yarn assets && yarn i18n",
     "build:umd": "webpack --display-modules && yarn assets",
     "build:umd:watch": "webpack --display-modules --progress --colors --watch",
-    "build:umd:min": "NODE_ENV=production webpack && yarn assets",
-    "build:umd:min:win": "SET NODE_ENV=production webpack",
+    "build:umd:min": "NODE_ENV=production webpack",
     "test": "jest",
     "sass": "compass compile  --force --trace && yarn assets",
     "sass:watch": "compass watch  --force --trace",
     "dev": "yarn run build:umd:watch | yarn run sass:watch",
-    "i18n": "php cli/locale.php",
     "assets": "php cli/assets.php",
     "release": "yarn build"
   },

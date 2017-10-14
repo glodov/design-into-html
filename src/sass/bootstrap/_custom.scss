@@ -1,0 +1,136 @@
+//Fonts
+$font-family-sans-serif:	'TheSansPlain', Arial, sans-serif;
+$font-family-base:	      $font-family-sans-serif;
+$font-family-second:      'SegoeUI', Helvetica, Arial, sans-serif;
+$small-font-size:         87.5%;
+$font-size-h1:            2.875rem;
+$font-size-h2:            1.875rem;
+$font-size-h5:            1.375rem;
+$font-size-h6:            1.25rem;
+$headings-line-height:    1.25;
+$font-size-lg:            1.125rem;
+
+//Colors
+$white:	           #ffffff;
+$black:	           #000000;
+$red:	             #9a2131;
+$red-dark:         #6d1823;
+$orange:	         #f0ad4e;
+$yellow:	         #ffd500;
+$green:  	         #0c9252;
+$gren-dark:        #434c41;
+$blue-light-ultra: #e3f2ff;
+$blue-light:       #003e5b;
+$blue:	           #002041;
+$teal-light:       #268cc8;
+$teal:	           #309bd9;
+$pink:	           #e83277;
+$purple:	         #613d7c;
+$brown:						 #373a3c;
+
+
+
+// Create grayscale
+$gray-dark:	    #535353;
+$gray:	        #666666;  // WF text muted
+$gray-light:	  #eeeeee;	// WF primary
+$gray-lighter:	#929fab;  // WF gray lighter
+$gray-lightest:	#dce0e5;  // WF background light
+$gray-0:        #cbcbcb;
+$gray-1:        #f7f7f7;
+
+$brand-primary: $gray-dark;
+$body-color:    $brown;
+
+$text-muted: $gray;
+
+$thumbnail-border-color: $gray-light;
+
+//Elements
+$btn-padding-y-lg:	.75rem;
+$btn-padding-x-lg:	1.5rem;
+
+$btn-secondary-color:            $white;
+$btn-secondary-bg:               $blue;
+$btn-secondary-border:           $blue;
+
+$border-radius:	    0;
+$border-radius-lg:	0;
+$border-radius-sm:	0;
+
+$breadcrumb-padding-y:	   0;
+$breadcrumb-padding-x:	   0;
+$breadcrumb-item-padding:	 .25rem;
+$breadcrumb-bg:	           none;
+$breadcrumb-divider-color: $text-muted;
+$breadcrumb-active-color:	 $body-color;
+
+$link-decoration:       underline;
+$link-color:            $teal;
+$link-hover-color:      $teal-light;
+
+$input-color:        $body-color;
+$input-border-color: $gray-light;
+$input-border-focus: $gray;
+$input-bg-disabled:  $white;
+
+$input-color-placeholder:  $gray-0;
+$input-bg-focus:           $gray-1;
+$input-color-focus:        $gray;
+
+$form-check-input-gutter:   1.25rem;
+
+// custom controls
+$custom-control-indicator-size:       1.5rem;
+$custom-control-active-indicator-color: $red;
+// $custom-control-active-indicator-bg
+$custom-control-indicator-bg:          $white;
+$custom-control-indicator-bg-size:    50% 50%;
+$custom-control-checked-indicator-bg:  $white;
+$custom-checkbox-checked-icon:         '';
+$custom-control-focus-indicator-box-shadow: none;
+$custom-control-checked-indicator-color: $red;
+$custom-select-indicator-color: $body-color;
+$custom-select-indicator: url("../img/shape.svg");
+$custom-select-bg-size:   .7rem;
+$custom-select-padding-x:  1.25rem;
+$custom-select-padding-y:  1rem;
+$custom-select-indicator-padding:   1rem; // Extra padding to account for the presence of the background-image based indicator
+$custom-select-border-width: 0;
+$custom-radio-checked-icon: '';
+
+//Nav
+$dropdown-bg:               $white;
+$dropdown-link-hover-bg:    $gray-lightest;
+$dropdown-link-hover-color: $body-color;
+
+//Modal
+$modal-inner-padding:      80px;
+
+$carousel-control-opacity: .8;
+
+//GRID
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$container-max-widths:	(
+  sm: 33.75rem,
+  md: 45rem,
+  lg: 58.75rem,
+  xl: 60.625rem
+);
+
+$grid-gutter-width-base: 30px;
+$grid-gutter-widths: (
+  xs: $grid-gutter-width-base,
+  sm: $grid-gutter-width-base,
+  md: $grid-gutter-width-base,
+  lg: $grid-gutter-width-base,
+  xl: $grid-gutter-width-base
+);

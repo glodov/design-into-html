@@ -1,0 +1,43 @@
+doctype html
+html(lang='en')
+
+  block head
+    head
+      meta(charset='UTF-8')
+      // For Resposive Device
+      meta(name='viewport', content='width=device-width, initial-scale=1.0')
+      // For IE
+      meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+      block head_styles
+        each style in config.styles
+          link(rel='stylesheet', href= style)
+
+      block head_title
+
+        title
+          | Basic template title
+
+      block head_description
+
+        meta(name='description', content='Basic template description')
+
+  block body
+    body
+
+      block body_header
+        header
+
+
+      block body_content
+        .container
+          .col-6.offset-3
+            | Basic template
+
+
+      block body_footer
+        footer
+
+      block close
+        each script in config.scripts
+          script(src= script)

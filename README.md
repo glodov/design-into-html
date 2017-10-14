@@ -57,6 +57,7 @@ Convert your Design into HTML / PUG with Bootstrap fast and easy with this proje
 ```
 
 ## Setup project
+
 Clone this project into your local website directory.
 
 	git clone https://github.com/glodov/design-into-html.git .
@@ -69,3 +70,38 @@ Install php packages with composer
 
 	composer install
 	
+
+## Setup bootstrap
+
+Change basic variables such colours, margins, gutters, etc. in file:
+
+```
+src/sass/bootstrap/_custom.scss
+```
+
+If there is some variables you want to use are missing, copy them from 
+
+```
+node_modules/bootstrap/scss/_variables.scss
+```
+
+paste, change and remove !default option to make it work.
+
+
+## Work with PUG templates
+
+All PUG templates are stored in 
+
+```
+templates/
+```
+
+Pages/files you want to include and don't want to compile into HTML products name with first character "_" (underscore). For instance __templates/_blocks__ where you can save blocks you need to include.
+If you want to access the file from browser and compile in production just save it as file with same url. For instance for url: 
+```
+/faq/how-to-compile-project
+```
+you need to have file:
+```
+templates/faq/how-to-compile-project.pug
+```

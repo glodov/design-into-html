@@ -1,0 +1,11 @@
+// define charset, sometimes it was a problem with bootstrap stylesheets
+@charset 'UTF-8';
+
+// define fonts 
+@import 'fonts/awesome/font-awesome';
+
+@import 'bootstrap/custom';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import 'bootstrap/extends';
+
+@import 'modules/core';
